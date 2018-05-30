@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F6749D31AFD4EE29157591 /* Pods_LoginHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3C2B92B123694F06B261C2 /* Pods_LoginHelper.framework */; };
+		FFD7BBE120BE531200FE584A /* LoginHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD7BBDF20BE531200FE584A /* LoginHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD7BC3F20BE584A00FE584A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2220BE584A00FE584A /* .gitkeep */; };
+		FFD7BC4020BE584A00FE584A /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2320BE584A00FE584A /* InitialViewController.xib */; };
+		FFD7BC4120BE584A00FE584A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2420BE584A00FE584A /* LoginViewController.xib */; };
+		FFD7BC4220BE584A00FE584A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2520BE584A00FE584A /* Media.xcassets */; };
+		FFD7BC4320BE584A00FE584A /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2620BE584A00FE584A /* Montserrat-Light.otf */; };
+		FFD7BC4420BE584A00FE584A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2720BE584A00FE584A /* Montserrat-Regular.ttf */; };
+		FFD7BC4520BE584A00FE584A /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2820BE584A00FE584A /* PasswordViewController.xib */; };
+		FFD7BC4620BE584A00FE584A /* RecoverCodeViewCotroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2920BE584A00FE584A /* RecoverCodeViewCotroller.xib */; };
+		FFD7BC4720BE584A00FE584A /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2A20BE584A00FE584A /* SignupViewController.xib */; };
+		FFD7BC4920BE584A00FE584A /* BackgroundMover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC2D20BE584A00FE584A /* BackgroundMover.swift */; };
+		FFD7BC4A20BE584A00FE584A /* Buttn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC2E20BE584A00FE584A /* Buttn.swift */; };
+		FFD7BC4B20BE584A00FE584A /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC2F20BE584A00FE584A /* CrossDissolveAnimation.swift */; };
+		FFD7BC4C20BE584A00FE584A /* FacebookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3020BE584A00FE584A /* FacebookService.swift */; };
+		FFD7BC4D20BE584A00FE584A /* GradientImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3120BE584A00FE584A /* GradientImageView.swift */; };
+		FFD7BC4E20BE584A00FE584A /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3220BE584A00FE584A /* InitialViewController.swift */; };
+		FFD7BC4F20BE584A00FE584A /* KeyboardMover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3320BE584A00FE584A /* KeyboardMover.swift */; };
+		FFD7BC5020BE584A00FE584A /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3420BE584A00FE584A /* LoginCoordinator.swift */; };
+		FFD7BC5120BE584A00FE584A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3520BE584A00FE584A /* LoginViewController.swift */; };
+		FFD7BC5220BE584A00FE584A /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3620BE584A00FE584A /* PasswordViewController.swift */; };
+		FFD7BC5320BE584B00FE584A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3720BE584A00FE584A /* SignupViewController.swift */; };
+		FFD7BC5420BE584B00FE584A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3A20BE584A00FE584A /* SkyFloatingLabelTextField.swift */; };
+		FFD7BC5520BE584B00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3B20BE584A00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		FFD7BC5620BE584B00FE584A /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3C20BE584A00FE584A /* UITextField+fixCaretPosition.swift */; };
+		FFD7BC5720BE584B00FE584A /* UIViewController+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3D20BE584A00FE584A /* UIViewController+Nib.swift */; };
+		FFD7BC5820BE584B00FE584A /* ValidatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3E20BE584A00FE584A /* ValidatorService.swift */; };
+		FFD7BC5A20BE585A00FE584A /* RecoverCodeViewCotroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC5920BE585A00FE584A /* RecoverCodeViewCotroller.xib */; };
+		FFD7BC5C20BE586300FE584A /* RecoverCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC5B20BE586300FE584A /* RecoverCodeViewController.swift */; };
+		FFD7BC5E20BE59B600FE584A /* GoogleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC5D20BE59B600FE584A /* GoogleService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0112B3007D84CE9CA1D12A87 /* Pods-LoginHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginHelper/Pods-LoginHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		2A3C2B92B123694F06B261C2 /* Pods_LoginHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCDCD3ED538A99B84DEF682 /* Pods-LoginHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginHelper/Pods-LoginHelper.release.xcconfig"; sourceTree = "<group>"; };
+		FFD7BBDC20BE531200FE584A /* LoginHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD7BBDF20BE531200FE584A /* LoginHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHelper.h; sourceTree = "<group>"; };
+		FFD7BBE020BE531200FE584A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD7BC2220BE584A00FE584A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		FFD7BC2320BE584A00FE584A /* InitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		FFD7BC2420BE584A00FE584A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FFD7BC2520BE584A00FE584A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FFD7BC2620BE584A00FE584A /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		FFD7BC2720BE584A00FE584A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		FFD7BC2820BE584A00FE584A /* PasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
+		FFD7BC2920BE584A00FE584A /* RecoverCodeViewCotroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecoverCodeViewCotroller.xib; sourceTree = "<group>"; };
+		FFD7BC2A20BE584A00FE584A /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		FFD7BC2D20BE584A00FE584A /* BackgroundMover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundMover.swift; sourceTree = "<group>"; };
+		FFD7BC2E20BE584A00FE584A /* Buttn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttn.swift; sourceTree = "<group>"; };
+		FFD7BC2F20BE584A00FE584A /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		FFD7BC3020BE584A00FE584A /* FacebookService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookService.swift; sourceTree = "<group>"; };
+		FFD7BC3120BE584A00FE584A /* GradientImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientImageView.swift; sourceTree = "<group>"; };
+		FFD7BC3220BE584A00FE584A /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		FFD7BC3320BE584A00FE584A /* KeyboardMover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardMover.swift; sourceTree = "<group>"; };
+		FFD7BC3420BE584A00FE584A /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		FFD7BC3520BE584A00FE584A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FFD7BC3620BE584A00FE584A /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		FFD7BC3720BE584A00FE584A /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		FFD7BC3A20BE584A00FE584A /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		FFD7BC3B20BE584A00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		FFD7BC3C20BE584A00FE584A /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		FFD7BC3D20BE584A00FE584A /* UIViewController+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nib.swift"; sourceTree = "<group>"; };
+		FFD7BC3E20BE584A00FE584A /* ValidatorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorService.swift; sourceTree = "<group>"; };
+		FFD7BC5920BE585A00FE584A /* RecoverCodeViewCotroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecoverCodeViewCotroller.xib; path = ../../RecoverCodeViewCotroller.xib; sourceTree = "<group>"; };
+		FFD7BC5B20BE586300FE584A /* RecoverCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecoverCodeViewController.swift; sourceTree = "<group>"; };
+		FFD7BC5D20BE59B600FE584A /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD7BBD820BE531200FE584A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F6749D31AFD4EE29157591 /* Pods_LoginHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD04BE44C66D48BCA89E65D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0112B3007D84CE9CA1D12A87 /* Pods-LoginHelper.debug.xcconfig */,
+				8BCDCD3ED538A99B84DEF682 /* Pods-LoginHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE0CB88FC6B2F202176F868E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A3C2B92B123694F06B261C2 /* Pods_LoginHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFD7BBD220BE531200FE584A = {
+			isa = PBXGroup;
+			children = (
+				FFD7BBDE20BE531200FE584A /* LoginHelper */,
+				FFD7BBDD20BE531200FE584A /* Products */,
+				AD04BE44C66D48BCA89E65D9 /* Pods */,
+				CE0CB88FC6B2F202176F868E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD7BBDD20BE531200FE584A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7BBDC20BE531200FE584A /* LoginHelper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD7BBDE20BE531200FE584A /* LoginHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7BC2020BE584A00FE584A /* LoginKit */,
+				FFD7BBDF20BE531200FE584A /* LoginHelper.h */,
+				FFD7BBE020BE531200FE584A /* Info.plist */,
+			);
+			path = LoginHelper;
+			sourceTree = "<group>";
+		};
+		FFD7BC2020BE584A00FE584A /* LoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7BC2120BE584A00FE584A /* Assets */,
+				FFD7BC2B20BE584A00FE584A /* Classes */,
+			);
+			name = LoginKit;
+			path = ../../LoginKit/LoginKit;
+			sourceTree = "<group>";
+		};
+		FFD7BC2120BE584A00FE584A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7BC5920BE585A00FE584A /* RecoverCodeViewCotroller.xib */,
+				FFD7BC2220BE584A00FE584A /* .gitkeep */,
+				FFD7BC2320BE584A00FE584A /* InitialViewController.xib */,
+				FFD7BC2420BE584A00FE584A /* LoginViewController.xib */,
+				FFD7BC2520BE584A00FE584A /* Media.xcassets */,
+				FFD7BC2620BE584A00FE584A /* Montserrat-Light.otf */,
+				FFD7BC2720BE584A00FE584A /* Montserrat-Regular.ttf */,
+				FFD7BC2820BE584A00FE584A /* PasswordViewController.xib */,
+				FFD7BC2920BE584A00FE584A /* RecoverCodeViewCotroller.xib */,
+				FFD7BC2A20BE584A00FE584A /* SignupViewController.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FFD7BC2B20BE584A00FE584A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7BC5B20BE586300FE584A /* RecoverCodeViewController.swift */,
+				FFD7BC2D20BE584A00FE584A /* BackgroundMover.swift */,
+				FFD7BC2E20BE584A00FE584A /* Buttn.swift */,
+				FFD7BC2F20BE584A00FE584A /* CrossDissolveAnimation.swift */,
+				FFD7BC3020BE584A00FE584A /* FacebookService.swift */,
+				FFD7BC5D20BE59B600FE584A /* GoogleService.swift */,
+				FFD7BC3120BE584A00FE584A /* GradientImageView.swift */,
+				FFD7BC3220BE584A00FE584A /* InitialViewController.swift */,
+				FFD7BC3320BE584A00FE584A /* KeyboardMover.swift */,
+				FFD7BC3420BE584A00FE584A /* LoginCoordinator.swift */,
+				FFD7BC3520BE584A00FE584A /* LoginViewController.swift */,
+				FFD7BC3620BE584A00FE584A /* PasswordViewController.swift */,
+				FFD7BC3720BE584A00FE584A /* SignupViewController.swift */,
+				FFD7BC3820BE584A00FE584A /* Third Party */,
+				FFD7BC3D20BE584A00FE584A /* UIViewController+Nib.swift */,
+				FFD7BC3E20BE584A00FE584A /* ValidatorService.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FFD7BC3820BE584A00FE584A /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7BC3920BE584A00FE584A /* Skyscanner:SkyFloatingLabelTextField */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		FFD7BC3920BE584A00FE584A /* Skyscanner:SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FFD7BC3A20BE584A00FE584A /* SkyFloatingLabelTextField.swift */,
+				FFD7BC3B20BE584A00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				FFD7BC3C20BE584A00FE584A /* UITextField+fixCaretPosition.swift */,
+			);
+			path = "Skyscanner:SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FFD7BBD920BE531200FE584A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD7BBE120BE531200FE584A /* LoginHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FFD7BBDB20BE531200FE584A /* LoginHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD7BBE420BE531200FE584A /* Build configuration list for PBXNativeTarget "LoginHelper" */;
+			buildPhases = (
+				CE6E98D959DE3491902489E5 /* [CP] Check Pods Manifest.lock */,
+				FFD7BBD720BE531200FE584A /* Sources */,
+				FFD7BBD820BE531200FE584A /* Frameworks */,
+				FFD7BBD920BE531200FE584A /* Headers */,
+				FFD7BBDA20BE531200FE584A /* Resources */,
+				BEA9F110A74FBEFA9C889BA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginHelper;
+			productName = LoginHelper;
+			productReference = FFD7BBDC20BE531200FE584A /* LoginHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD7BBD320BE531200FE584A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "DT Dat";
+				TargetAttributes = {
+					FFD7BBDB20BE531200FE584A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFD7BBD620BE531200FE584A /* Build configuration list for PBXProject "LoginHelper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD7BBD220BE531200FE584A;
+			productRefGroup = FFD7BBDD20BE531200FE584A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD7BBDB20BE531200FE584A /* LoginHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD7BBDA20BE531200FE584A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD7BC4420BE584A00FE584A /* Montserrat-Regular.ttf in Resources */,
+				FFD7BC4320BE584A00FE584A /* Montserrat-Light.otf in Resources */,
+				FFD7BC3F20BE584A00FE584A /* .gitkeep in Resources */,
+				FFD7BC4020BE584A00FE584A /* InitialViewController.xib in Resources */,
+				FFD7BC4220BE584A00FE584A /* Media.xcassets in Resources */,
+				FFD7BC4120BE584A00FE584A /* LoginViewController.xib in Resources */,
+				FFD7BC4720BE584A00FE584A /* SignupViewController.xib in Resources */,
+				FFD7BC4520BE584A00FE584A /* PasswordViewController.xib in Resources */,
+				FFD7BC5A20BE585A00FE584A /* RecoverCodeViewCotroller.xib in Resources */,
+				FFD7BC4620BE584A00FE584A /* RecoverCodeViewCotroller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEA9F110A74FBEFA9C889BA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LoginHelper/Pods-LoginHelper-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginHelper/Pods-LoginHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6E98D959DE3491902489E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoginHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD7BBD720BE531200FE584A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD7BC5620BE584B00FE584A /* UITextField+fixCaretPosition.swift in Sources */,
+				FFD7BC5120BE584A00FE584A /* LoginViewController.swift in Sources */,
+				FFD7BC5220BE584A00FE584A /* PasswordViewController.swift in Sources */,
+				FFD7BC5320BE584B00FE584A /* SignupViewController.swift in Sources */,
+				FFD7BC5720BE584B00FE584A /* UIViewController+Nib.swift in Sources */,
+				FFD7BC4920BE584A00FE584A /* BackgroundMover.swift in Sources */,
+				FFD7BC4D20BE584A00FE584A /* GradientImageView.swift in Sources */,
+				FFD7BC4F20BE584A00FE584A /* KeyboardMover.swift in Sources */,
+				FFD7BC5E20BE59B600FE584A /* GoogleService.swift in Sources */,
+				FFD7BC5820BE584B00FE584A /* ValidatorService.swift in Sources */,
+				FFD7BC5420BE584B00FE584A /* SkyFloatingLabelTextField.swift in Sources */,
+				FFD7BC4B20BE584A00FE584A /* CrossDissolveAnimation.swift in Sources */,
+				FFD7BC4E20BE584A00FE584A /* InitialViewController.swift in Sources */,
+				FFD7BC5520BE584B00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				FFD7BC4A20BE584A00FE584A /* Buttn.swift in Sources */,
+				FFD7BC5020BE584A00FE584A /* LoginCoordinator.swift in Sources */,
+				FFD7BC5C20BE586300FE584A /* RecoverCodeViewController.swift in Sources */,
+				FFD7BC4C20BE584A00FE584A /* FacebookService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFD7BBE220BE531200FE584A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFD7BBE320BE531200FE584A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFD7BBE520BE531200FE584A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0112B3007D84CE9CA1D12A87 /* Pods-LoginHelper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 954C489898;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LoginHelper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trim-inc.LoginHelper";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFD7BBE620BE531200FE584A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BCDCD3ED538A99B84DEF682 /* Pods-LoginHelper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 954C489898;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LoginHelper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Trim-inc.LoginHelper";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD7BBD620BE531200FE584A /* Build configuration list for PBXProject "LoginHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD7BBE220BE531200FE584A /* Debug */,
+				FFD7BBE320BE531200FE584A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD7BBE420BE531200FE584A /* Build configuration list for PBXNativeTarget "LoginHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD7BBE520BE531200FE584A /* Debug */,
+				FFD7BBE620BE531200FE584A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD7BBD320BE531200FE584A /* Project object */;
+}
