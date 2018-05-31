@@ -9,34 +9,6 @@
 /* Begin PBXBuildFile section */
 		04F6749D31AFD4EE29157591 /* Pods_LoginHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3C2B92B123694F06B261C2 /* Pods_LoginHelper.framework */; };
 		FFD7BBE120BE531200FE584A /* LoginHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD7BBDF20BE531200FE584A /* LoginHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFD7BC3F20BE584A00FE584A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2220BE584A00FE584A /* .gitkeep */; };
-		FFD7BC4020BE584A00FE584A /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2320BE584A00FE584A /* InitialViewController.xib */; };
-		FFD7BC4120BE584A00FE584A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2420BE584A00FE584A /* LoginViewController.xib */; };
-		FFD7BC4220BE584A00FE584A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2520BE584A00FE584A /* Media.xcassets */; };
-		FFD7BC4320BE584A00FE584A /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2620BE584A00FE584A /* Montserrat-Light.otf */; };
-		FFD7BC4420BE584A00FE584A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2720BE584A00FE584A /* Montserrat-Regular.ttf */; };
-		FFD7BC4520BE584A00FE584A /* PasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2820BE584A00FE584A /* PasswordViewController.xib */; };
-		FFD7BC4620BE584A00FE584A /* RecoverCodeViewCotroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2920BE584A00FE584A /* RecoverCodeViewCotroller.xib */; };
-		FFD7BC4720BE584A00FE584A /* SignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC2A20BE584A00FE584A /* SignupViewController.xib */; };
-		FFD7BC4920BE584A00FE584A /* BackgroundMover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC2D20BE584A00FE584A /* BackgroundMover.swift */; };
-		FFD7BC4A20BE584A00FE584A /* Buttn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC2E20BE584A00FE584A /* Buttn.swift */; };
-		FFD7BC4B20BE584A00FE584A /* CrossDissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC2F20BE584A00FE584A /* CrossDissolveAnimation.swift */; };
-		FFD7BC4C20BE584A00FE584A /* FacebookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3020BE584A00FE584A /* FacebookService.swift */; };
-		FFD7BC4D20BE584A00FE584A /* GradientImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3120BE584A00FE584A /* GradientImageView.swift */; };
-		FFD7BC4E20BE584A00FE584A /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3220BE584A00FE584A /* InitialViewController.swift */; };
-		FFD7BC4F20BE584A00FE584A /* KeyboardMover.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3320BE584A00FE584A /* KeyboardMover.swift */; };
-		FFD7BC5020BE584A00FE584A /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3420BE584A00FE584A /* LoginCoordinator.swift */; };
-		FFD7BC5120BE584A00FE584A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3520BE584A00FE584A /* LoginViewController.swift */; };
-		FFD7BC5220BE584A00FE584A /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3620BE584A00FE584A /* PasswordViewController.swift */; };
-		FFD7BC5320BE584B00FE584A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3720BE584A00FE584A /* SignupViewController.swift */; };
-		FFD7BC5420BE584B00FE584A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3A20BE584A00FE584A /* SkyFloatingLabelTextField.swift */; };
-		FFD7BC5520BE584B00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3B20BE584A00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		FFD7BC5620BE584B00FE584A /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3C20BE584A00FE584A /* UITextField+fixCaretPosition.swift */; };
-		FFD7BC5720BE584B00FE584A /* UIViewController+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3D20BE584A00FE584A /* UIViewController+Nib.swift */; };
-		FFD7BC5820BE584B00FE584A /* ValidatorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC3E20BE584A00FE584A /* ValidatorService.swift */; };
-		FFD7BC5A20BE585A00FE584A /* RecoverCodeViewCotroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFD7BC5920BE585A00FE584A /* RecoverCodeViewCotroller.xib */; };
-		FFD7BC5C20BE586300FE584A /* RecoverCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC5B20BE586300FE584A /* RecoverCodeViewController.swift */; };
-		FFD7BC5E20BE59B600FE584A /* GoogleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD7BC5D20BE59B600FE584A /* GoogleService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,34 +18,33 @@
 		FFD7BBDC20BE531200FE584A /* LoginHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD7BBDF20BE531200FE584A /* LoginHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHelper.h; sourceTree = "<group>"; };
 		FFD7BBE020BE531200FE584A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFD7BC2220BE584A00FE584A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		FFD7BC2320BE584A00FE584A /* InitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
-		FFD7BC2420BE584A00FE584A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		FFD7BC2520BE584A00FE584A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		FFD7BC2620BE584A00FE584A /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
-		FFD7BC2720BE584A00FE584A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		FFD7BC2820BE584A00FE584A /* PasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
-		FFD7BC2920BE584A00FE584A /* RecoverCodeViewCotroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecoverCodeViewCotroller.xib; sourceTree = "<group>"; };
-		FFD7BC2A20BE584A00FE584A /* SignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
-		FFD7BC2D20BE584A00FE584A /* BackgroundMover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundMover.swift; sourceTree = "<group>"; };
-		FFD7BC2E20BE584A00FE584A /* Buttn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttn.swift; sourceTree = "<group>"; };
-		FFD7BC2F20BE584A00FE584A /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossDissolveAnimation.swift; sourceTree = "<group>"; };
-		FFD7BC3020BE584A00FE584A /* FacebookService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookService.swift; sourceTree = "<group>"; };
-		FFD7BC3120BE584A00FE584A /* GradientImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientImageView.swift; sourceTree = "<group>"; };
-		FFD7BC3220BE584A00FE584A /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
-		FFD7BC3320BE584A00FE584A /* KeyboardMover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardMover.swift; sourceTree = "<group>"; };
-		FFD7BC3420BE584A00FE584A /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
-		FFD7BC3520BE584A00FE584A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FFD7BC3620BE584A00FE584A /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
-		FFD7BC3720BE584A00FE584A /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		FFD7BC3A20BE584A00FE584A /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
-		FFD7BC3B20BE584A00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		FFD7BC3C20BE584A00FE584A /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
-		FFD7BC3D20BE584A00FE584A /* UIViewController+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nib.swift"; sourceTree = "<group>"; };
-		FFD7BC3E20BE584A00FE584A /* ValidatorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorService.swift; sourceTree = "<group>"; };
-		FFD7BC5920BE585A00FE584A /* RecoverCodeViewCotroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecoverCodeViewCotroller.xib; path = ../../RecoverCodeViewCotroller.xib; sourceTree = "<group>"; };
-		FFD7BC5B20BE586300FE584A /* RecoverCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecoverCodeViewController.swift; sourceTree = "<group>"; };
-		FFD7BC5D20BE59B600FE584A /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
+		FFD7BC7320BE6E2800FE584A /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		FFD7BC7420BE6E2800FE584A /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		FFD7BC7520BE6E2800FE584A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FFD7BC7620BE6E2800FE584A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FFD7BC7720BE6E2800FE584A /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		FFD7BC7820BE6E2800FE584A /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		FFD7BC7920BE6E2800FE584A /* PasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordViewController.xib; sourceTree = "<group>"; };
+		FFD7BC7A20BE6E2800FE584A /* RecoverCodeViewCotroller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecoverCodeViewCotroller.xib; sourceTree = "<group>"; };
+		FFD7BC7B20BE6E2800FE584A /* SignupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupViewController.xib; sourceTree = "<group>"; };
+		FFD7BC7D20BE6E2B00FE584A /* BackgroundMover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundMover.swift; sourceTree = "<group>"; };
+		FFD7BC7E20BE6E2B00FE584A /* Buttn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttn.swift; sourceTree = "<group>"; };
+		FFD7BC7F20BE6E2B00FE584A /* CrossDissolveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossDissolveAnimation.swift; sourceTree = "<group>"; };
+		FFD7BC8020BE6E2B00FE584A /* FacebookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookService.swift; sourceTree = "<group>"; };
+		FFD7BC8120BE6E2B00FE584A /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
+		FFD7BC8220BE6E2B00FE584A /* GradientImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientImageView.swift; sourceTree = "<group>"; };
+		FFD7BC8320BE6E2B00FE584A /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		FFD7BC8420BE6E2B00FE584A /* KeyboardMover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMover.swift; sourceTree = "<group>"; };
+		FFD7BC8520BE6E2B00FE584A /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		FFD7BC8620BE6E2B00FE584A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FFD7BC8720BE6E2B00FE584A /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		FFD7BC8820BE6E2B00FE584A /* RecoverCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverCodeViewController.swift; sourceTree = "<group>"; };
+		FFD7BC8920BE6E2B00FE584A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		FFD7BC8C20BE6E2B00FE584A /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		FFD7BC8D20BE6E2B00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		FFD7BC8E20BE6E2B00FE584A /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		FFD7BC8F20BE6E2B00FE584A /* UIViewController+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Nib.swift"; sourceTree = "<group>"; };
+		FFD7BC9020BE6E2B00FE584A /* ValidatorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +79,8 @@
 		FFD7BBD220BE531200FE584A = {
 			isa = PBXGroup;
 			children = (
+				FFD7BC7220BE6E2800FE584A /* Assets */,
+				FFD7BC7C20BE6E2B00FE584A /* Classes */,
 				FFD7BBDE20BE531200FE584A /* LoginHelper */,
 				FFD7BBDD20BE531200FE584A /* Products */,
 				AD04BE44C66D48BCA89E65D9 /* Pods */,
@@ -126,77 +99,65 @@
 		FFD7BBDE20BE531200FE584A /* LoginHelper */ = {
 			isa = PBXGroup;
 			children = (
-				FFD7BC2020BE584A00FE584A /* LoginKit */,
 				FFD7BBDF20BE531200FE584A /* LoginHelper.h */,
 				FFD7BBE020BE531200FE584A /* Info.plist */,
 			);
 			path = LoginHelper;
 			sourceTree = "<group>";
 		};
-		FFD7BC2020BE584A00FE584A /* LoginKit */ = {
+		FFD7BC7220BE6E2800FE584A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				FFD7BC2120BE584A00FE584A /* Assets */,
-				FFD7BC2B20BE584A00FE584A /* Classes */,
-			);
-			name = LoginKit;
-			path = ../../LoginKit/LoginKit;
-			sourceTree = "<group>";
-		};
-		FFD7BC2120BE584A00FE584A /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				FFD7BC5920BE585A00FE584A /* RecoverCodeViewCotroller.xib */,
-				FFD7BC2220BE584A00FE584A /* .gitkeep */,
-				FFD7BC2320BE584A00FE584A /* InitialViewController.xib */,
-				FFD7BC2420BE584A00FE584A /* LoginViewController.xib */,
-				FFD7BC2520BE584A00FE584A /* Media.xcassets */,
-				FFD7BC2620BE584A00FE584A /* Montserrat-Light.otf */,
-				FFD7BC2720BE584A00FE584A /* Montserrat-Regular.ttf */,
-				FFD7BC2820BE584A00FE584A /* PasswordViewController.xib */,
-				FFD7BC2920BE584A00FE584A /* RecoverCodeViewCotroller.xib */,
-				FFD7BC2A20BE584A00FE584A /* SignupViewController.xib */,
+				FFD7BC7320BE6E2800FE584A /* .gitkeep */,
+				FFD7BC7420BE6E2800FE584A /* InitialViewController.xib */,
+				FFD7BC7520BE6E2800FE584A /* LoginViewController.xib */,
+				FFD7BC7620BE6E2800FE584A /* Media.xcassets */,
+				FFD7BC7720BE6E2800FE584A /* Montserrat-Light.otf */,
+				FFD7BC7820BE6E2800FE584A /* Montserrat-Regular.ttf */,
+				FFD7BC7920BE6E2800FE584A /* PasswordViewController.xib */,
+				FFD7BC7A20BE6E2800FE584A /* RecoverCodeViewCotroller.xib */,
+				FFD7BC7B20BE6E2800FE584A /* SignupViewController.xib */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		FFD7BC2B20BE584A00FE584A /* Classes */ = {
+		FFD7BC7C20BE6E2B00FE584A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FFD7BC5B20BE586300FE584A /* RecoverCodeViewController.swift */,
-				FFD7BC2D20BE584A00FE584A /* BackgroundMover.swift */,
-				FFD7BC2E20BE584A00FE584A /* Buttn.swift */,
-				FFD7BC2F20BE584A00FE584A /* CrossDissolveAnimation.swift */,
-				FFD7BC3020BE584A00FE584A /* FacebookService.swift */,
-				FFD7BC5D20BE59B600FE584A /* GoogleService.swift */,
-				FFD7BC3120BE584A00FE584A /* GradientImageView.swift */,
-				FFD7BC3220BE584A00FE584A /* InitialViewController.swift */,
-				FFD7BC3320BE584A00FE584A /* KeyboardMover.swift */,
-				FFD7BC3420BE584A00FE584A /* LoginCoordinator.swift */,
-				FFD7BC3520BE584A00FE584A /* LoginViewController.swift */,
-				FFD7BC3620BE584A00FE584A /* PasswordViewController.swift */,
-				FFD7BC3720BE584A00FE584A /* SignupViewController.swift */,
-				FFD7BC3820BE584A00FE584A /* Third Party */,
-				FFD7BC3D20BE584A00FE584A /* UIViewController+Nib.swift */,
-				FFD7BC3E20BE584A00FE584A /* ValidatorService.swift */,
+				FFD7BC7D20BE6E2B00FE584A /* BackgroundMover.swift */,
+				FFD7BC7E20BE6E2B00FE584A /* Buttn.swift */,
+				FFD7BC7F20BE6E2B00FE584A /* CrossDissolveAnimation.swift */,
+				FFD7BC8020BE6E2B00FE584A /* FacebookService.swift */,
+				FFD7BC8120BE6E2B00FE584A /* GoogleService.swift */,
+				FFD7BC8220BE6E2B00FE584A /* GradientImageView.swift */,
+				FFD7BC8320BE6E2B00FE584A /* InitialViewController.swift */,
+				FFD7BC8420BE6E2B00FE584A /* KeyboardMover.swift */,
+				FFD7BC8520BE6E2B00FE584A /* LoginCoordinator.swift */,
+				FFD7BC8620BE6E2B00FE584A /* LoginViewController.swift */,
+				FFD7BC8720BE6E2B00FE584A /* PasswordViewController.swift */,
+				FFD7BC8820BE6E2B00FE584A /* RecoverCodeViewController.swift */,
+				FFD7BC8920BE6E2B00FE584A /* SignupViewController.swift */,
+				FFD7BC8A20BE6E2B00FE584A /* Third Party */,
+				FFD7BC8F20BE6E2B00FE584A /* UIViewController+Nib.swift */,
+				FFD7BC9020BE6E2B00FE584A /* ValidatorService.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		FFD7BC3820BE584A00FE584A /* Third Party */ = {
+		FFD7BC8A20BE6E2B00FE584A /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				FFD7BC3920BE584A00FE584A /* Skyscanner:SkyFloatingLabelTextField */,
+				FFD7BC8B20BE6E2B00FE584A /* Skyscanner:SkyFloatingLabelTextField */,
 			);
 			path = "Third Party";
 			sourceTree = "<group>";
 		};
-		FFD7BC3920BE584A00FE584A /* Skyscanner:SkyFloatingLabelTextField */ = {
+		FFD7BC8B20BE6E2B00FE584A /* Skyscanner:SkyFloatingLabelTextField */ = {
 			isa = PBXGroup;
 			children = (
-				FFD7BC3A20BE584A00FE584A /* SkyFloatingLabelTextField.swift */,
-				FFD7BC3B20BE584A00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift */,
-				FFD7BC3C20BE584A00FE584A /* UITextField+fixCaretPosition.swift */,
+				FFD7BC8C20BE6E2B00FE584A /* SkyFloatingLabelTextField.swift */,
+				FFD7BC8D20BE6E2B00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				FFD7BC8E20BE6E2B00FE584A /* UITextField+fixCaretPosition.swift */,
 			);
 			path = "Skyscanner:SkyFloatingLabelTextField";
 			sourceTree = "<group>";
@@ -273,16 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD7BC4420BE584A00FE584A /* Montserrat-Regular.ttf in Resources */,
-				FFD7BC4320BE584A00FE584A /* Montserrat-Light.otf in Resources */,
-				FFD7BC3F20BE584A00FE584A /* .gitkeep in Resources */,
-				FFD7BC4020BE584A00FE584A /* InitialViewController.xib in Resources */,
-				FFD7BC4220BE584A00FE584A /* Media.xcassets in Resources */,
-				FFD7BC4120BE584A00FE584A /* LoginViewController.xib in Resources */,
-				FFD7BC4720BE584A00FE584A /* SignupViewController.xib in Resources */,
-				FFD7BC4520BE584A00FE584A /* PasswordViewController.xib in Resources */,
-				FFD7BC5A20BE585A00FE584A /* RecoverCodeViewCotroller.xib in Resources */,
-				FFD7BC4620BE584A00FE584A /* RecoverCodeViewCotroller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,24 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFD7BC5620BE584B00FE584A /* UITextField+fixCaretPosition.swift in Sources */,
-				FFD7BC5120BE584A00FE584A /* LoginViewController.swift in Sources */,
-				FFD7BC5220BE584A00FE584A /* PasswordViewController.swift in Sources */,
-				FFD7BC5320BE584B00FE584A /* SignupViewController.swift in Sources */,
-				FFD7BC5720BE584B00FE584A /* UIViewController+Nib.swift in Sources */,
-				FFD7BC4920BE584A00FE584A /* BackgroundMover.swift in Sources */,
-				FFD7BC4D20BE584A00FE584A /* GradientImageView.swift in Sources */,
-				FFD7BC4F20BE584A00FE584A /* KeyboardMover.swift in Sources */,
-				FFD7BC5E20BE59B600FE584A /* GoogleService.swift in Sources */,
-				FFD7BC5820BE584B00FE584A /* ValidatorService.swift in Sources */,
-				FFD7BC5420BE584B00FE584A /* SkyFloatingLabelTextField.swift in Sources */,
-				FFD7BC4B20BE584A00FE584A /* CrossDissolveAnimation.swift in Sources */,
-				FFD7BC4E20BE584A00FE584A /* InitialViewController.swift in Sources */,
-				FFD7BC5520BE584B00FE584A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
-				FFD7BC4A20BE584A00FE584A /* Buttn.swift in Sources */,
-				FFD7BC5020BE584A00FE584A /* LoginCoordinator.swift in Sources */,
-				FFD7BC5C20BE586300FE584A /* RecoverCodeViewController.swift in Sources */,
-				FFD7BC4C20BE584A00FE584A /* FacebookService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +416,7 @@
 				INFOPLIST_FILE = LoginHelper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = "Trim-inc.LoginHelper";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -505,6 +439,7 @@
 				INFOPLIST_FILE = LoginHelper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = "Trim-inc.LoginHelper";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
