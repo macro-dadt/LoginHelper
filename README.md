@@ -10,7 +10,7 @@ This library not only help you handle login/signup logic but also take care UI, 
 
 | First View | Sign in View  | new account View | Recovery View |
 | ------------- | ------------- | ------------- | ------------- |
-| ![Basic Banners](readme/UNADJUSTEDNONRAW_thumb_dcb.jpg)  | ![Banners with Side Views](readme/UNADJUSTEDNONRAW_thumb_dce.jpg)  | ![Status Bar Banners](readme/UNADJUSTEDNONRAW_thumb_dcd.jpg) | ![Status Bar Banners](readme/UNADJUSTEDNONRAW_thumb_dcc.jpg) |
+| ![First](readme/UNADJUSTEDNONRAW_thumb_dcb.jpg)  | ![Sign in](readme/UNADJUSTEDNONRAW_thumb_dce.jpg)  | ![new account View](readme/UNADJUSTEDNONRAW_thumb_dcd.jpg) | ![Recovery View](readme/UNADJUSTEDNONRAW_thumb_dcc.jpg) |
 
 ### Installation:
 #### • CocoaPods
